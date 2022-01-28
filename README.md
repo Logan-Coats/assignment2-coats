@@ -15,6 +15,8 @@ Its kinda the <b>best place</b> to get burgers in Kansas City. It's in <b>Platte
 <li>Turn right on NW Spur Dr. and enter the LC's Hamburgers parking lot on the right.</li>
 </ol>
 <ul>
+
+#### Things I'd recommend:
 <li>Hamburger</li>
 <li>Big Deal (Cheeseburger w/grilled onions, a regular fry and drink</li>
 <li>Double Bacon Cheeseburger</li>
