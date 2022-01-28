@@ -40,4 +40,25 @@ These are things I like to do/play and I thought I would share them here.
 
 > Lack of something to feel important about is almost the greatest tragedy a man may have. - *Arthur Morgan, Red Dead Redemption II*
 
+***
+### Depth First Search Algorithm
+
+> Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. - [Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search#:~:text=Depth%2Dfirst%20search%20(DFS),along%20each%20branch%20before%20backtracking.)
+
+```cpp
+vector<vector<int>> adj; // graph represented as an adjacency list
+int n; // number of vertices
+
+vector<bool> visited;
+
+void dfs(int v) {
+    visited[v] = true;
+    for (int u : adj[v]) {
+        if (!visited[u])
+            dfs(u);
+    }
+}
+```
+[Code Source](https://cp-algorithms.com/graph/depth-first-search.html)
+
 [About me](AboutMe.md)
